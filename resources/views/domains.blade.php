@@ -2,7 +2,7 @@
     @section('title', 'DutaHosting - Cek Domain Murah')
 
     <div class="page pb-20 pt-32 relative" x-data="{
-        query: '',
+        query: '{{ request()->query('domain', '') }}',
         isSearching: false,
         results: null,
         tlds: [
@@ -13,8 +13,13 @@
             { ext: '.tech', price: 'Rp 75.000', popular: false },
             { ext: '.app', price: 'Rp 225.000', popular: false },
         ],
+        init() {
+            if (this.query) {
+                this.handleSearch({ preventDefault: () => {} });
+            }
+        },
         handleSearch(e) {
-            e.preventDefault();
+            if (e && e.preventDefault) e.preventDefault();
             if (!this.query) return;
 
             this.isSearching = true;

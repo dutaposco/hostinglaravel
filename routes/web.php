@@ -5,19 +5,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/pricing', function () {
     return view('pricing');
-});
+})->name('pricing');
 
 Route::get('/domains', function () {
     return view('domains');
-});
+})->name('domains');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::post('/domains/search', function (\Illuminate\Http\Request $request) {
+    return redirect()->route('domains', ['domain' => $request->input('domain')]);
+})->name('domain.search');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
