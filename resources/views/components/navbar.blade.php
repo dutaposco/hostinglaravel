@@ -88,7 +88,7 @@
 
         <!-- Hamburger -->
         <button
-            class="md:hidden w-10 h-10 border border-blue-200 rounded-xl flex items-center justify-center text-slate-900"
+            class="md:hidden w-10 h-10 border border-orange-200 rounded-xl flex items-center justify-center text-slate-900"
             @click="menuOpen = !menuOpen">
             <template x-if="!menuOpen">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -129,7 +129,7 @@
                         <a href="/domains"
                             class="group flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition-all border border-transparent hover:border-slate-100">
                             <div
-                                class="w-14 h-14 rounded-2xl bg-sky-50 flex items-center justify-center text-sky-500 shrink-0 group-hover:scale-110 transition-transform">
+                                class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-500 shrink-0 group-hover:scale-110 transition-transform">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -151,7 +151,7 @@
                         <a href="#"
                             class="group flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition-all border border-transparent hover:border-slate-100">
                             <div
-                                class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-500 shrink-0 group-hover:scale-110 transition-transform">
+                                class="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 shrink-0 group-hover:scale-110 transition-transform">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -207,8 +207,8 @@
                     <div class="lg:col-span-9 grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6">
                         @php
                             $hostingItems = [
-                                ['Shared Hosting', 'Mulai harga Rp 15 ribu/bulan', 'bg-blue-50', 'text-blue-500'],
-                                ['Cloud Hosting', 'Dedicated & isolated resource.', 'bg-sky-50', 'text-sky-500', 'Baru!'],
+                                ['Shared Hosting', 'Mulai harga Rp 15 ribu/bulan', 'bg-orange-50', 'text-orange-500'],
+                                ['Cloud Hosting', 'Dedicated & isolated resource.', 'bg-orange-100', 'text-orange-600', 'Baru!'],
                                 ['Hosting for WordPress', 'Performa khusus WordPress.', 'bg-emerald-50', 'text-emerald-500'],
                                 ['Dedicated Server', 'Server fisik sesuai kebutuhan.', 'bg-indigo-50', 'text-indigo-500', 'Baru!'],
                                 ['VPS / Cloud Server', 'Powerful berbasis KVM.', 'bg-purple-50', 'text-purple-500', 'Baru!'],
@@ -255,7 +255,7 @@
                     <div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-8 pl-4">
                         <a href="#" class="group flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition-all">
                             <div
-                                class="w-14 h-14 rounded-2xl bg-cyan-50 flex items-center justify-center text-cyan-500 shrink-0 group-hover:rotate-6 transition-transform">
+                                class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-400 shrink-0 group-hover:rotate-6 transition-transform">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -275,7 +275,7 @@
                         </a>
                         <a href="#" class="group flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition-all">
                             <div
-                                class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-500 shrink-0 group-hover:rotate-6 transition-transform">
+                                class="w-14 h-14 rounded-2xl bg-orange-100 flex items-center justify-center text-orange-600 shrink-0 group-hover:rotate-6 transition-transform">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -317,7 +317,7 @@
                 {{-- All Services Menu --}}
                 <div x-show="activeMegaMenu === 'layanan'" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
                     <div>
-                        <h4 class="text-sky-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
+                        <h4 class="text-orange-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
                             Hosting</h4>
                         <ul class="space-y-2">
                             @foreach(['Shared Hosting', 'Dedicated Server', 'Hosting for WordPress', 'VPS Murah', 'Unlimited Hosting', 'Cloud Hosting'] as $li)
@@ -328,7 +328,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-sky-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
+                        <h4 class="text-orange-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
                             Domain</h4>
                         <ul class="space-y-2">
                             @foreach(['Beli Domain', 'Transfer Domain', 'Reseller Domain'] as $li)
@@ -338,7 +338,7 @@
                             @endforeach
                         </ul>
                         <h4
-                            class="text-sky-500 font-bold mt-8 mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
+                            class="text-orange-500 font-bold mt-8 mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
                             Website</h4>
                         <ul class="space-y-2">
                             @foreach(['AI Website Builder', 'Website Builder Free', 'Jasa Pembuatan Web'] as $li)
@@ -349,7 +349,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-sky-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
+                        <h4 class="text-orange-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
                             Email & Kolaborasi</h4>
                         <ul class="space-y-2">
                             @foreach(['Google Workspace', 'Titan Mail', 'OX Mail', 'Microsoft 365'] as $li)
@@ -360,7 +360,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-sky-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
+                        <h4 class="text-orange-500 font-bold mb-4 flex items-center gap-2 border-b border-slate-50 pb-2">
                             Keamanan</h4>
                         <ul class="space-y-2">
                             @foreach(['Sertifikat SSL', 'Sitelock', 'CodeGuard Backup'] as $li)

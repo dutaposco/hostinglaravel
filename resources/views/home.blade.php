@@ -75,7 +75,7 @@
                                             required>
                                     </div>
                                     <button type="submit"
-                                        class="px-8 py-3.5 bg-accent text-white font-black uppercase tracking-widest text-xs rounded-xl hover:bg-blue-600 transition-all shadow-lg active:scale-95 flex items-center justify-center gap-2">
+                                        class="px-8 py-3.5 bg-accent text-white font-black uppercase tracking-widest text-xs rounded-xl hover:bg-[#e66000] transition-all shadow-lg active:scale-95 flex items-center justify-center gap-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
@@ -299,7 +299,7 @@
                             </p>
 
                             <a href="/domains"
-                                class="w-full py-3 bg-accent text-white font-bold rounded-lg hover:bg-blue-700 transition-colors shadow-sm group-hover:scale-[1.02] transform">
+                                class="w-full py-3 bg-accent text-white font-bold rounded-lg hover:bg-[#e66000] transition-colors shadow-sm group-hover:scale-[1.02] transform">
                                 Beli
                             </a>
                         </div>
@@ -326,27 +326,27 @@
                             [
                                 'title' => 'Cloud Storage (SSD NVMe)',
                                 'desc' => 'Teknologi penyimpanan Cloud berbasis SSD NVMe dengan replikasi data 3x memberikan Anda 100% data uptime, kinerja terbaik, stabilitas maksimum, dan perlindungan terhadap kerusakan data.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400 font-black"><path d="M17.5 19a3.5 3.5 0 0 0 0-7h-1.5c0-2.28-1.74-4.5-4.47-4.5A4.5 4.5 0 0 0 7 12h-.5a3.5 3.5 0 0 0 0 7z"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-400 font-black"><path d="M17.5 19a3.5 3.5 0 0 0 0-7h-1.5c0-2.28-1.74-4.5-4.47-4.5A4.5 4.5 0 0 0 7 12h-.5a3.5 3.5 0 0 0 0 7z"/></svg>'
                             ],
                             [
                                 'title' => 'Remote Backup',
                                 'desc' => 'Cegah kehilangan atau kerusakan data akibat hal tidak terduga dengan cadangan yang disimpan di Data Center di lokasi berbeda. Terdapat dua titik pemulihan, yaitu mingguan dan bulanan.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-400"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="3" y2="15"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-500"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="3" y2="15"/></svg>'
                             ],
                             [
                                 'title' => 'cPanel dengan CloudLinux',
                                 'desc' => 'cPanel adalah panel kontrol terbaik karena mudah digunakan, fitur lengkap, dan hemat waktu. Isolasi sumber daya yang disediakan oleh CloudLinux membuat server sangat stabil.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500 font-bold"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600 font-bold"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>'
                             ],
                             [
                                 'title' => 'Web Accelerator',
                                 'desc' => 'Terdapat berbagai fitur yang mampu mempercepat website Anda seperti WordPress Accelerator, PageSpeed Plugin, NGINX Cache, LiteSpeed Cache, GFonts Accelerator, Redis, dan Memcached.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-500"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>'
                             ],
                             [
                                 'title' => 'HTTP/3 dan Brotli',
                                 'desc' => 'Adanya teknologi HTTP/3 terbaru dan QUIC di layanan DutaHosting dan ditambah dengan kombinasi kompresi optimal Brotli, website Anda akan menjadi lebih cepat diakses.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-400"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-500"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>'
                             ],
                             [
                                 'title' => 'Anti-malware Imunify360',
@@ -356,12 +356,12 @@
                             [
                                 'title' => 'Provider Hosting Indonesia Terpercaya',
                                 'desc' => 'DutaHosting hadir untuk memberikan layanan terbaik, telah dipercaya oleh ratusan ribu pelanggan baik di Indonesia maupun mancanegara.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-700"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
                             ],
                             [
                                 'title' => 'Biaya Transparan',
                                 'desc' => 'Perhitungan biaya yang sederhana dan tidak ada biaya tersembunyi. Cukup bayar sesuai dengan tagihan. DutaHosting memberikan jaminan garansi uang kembali 30 hari pertama berlaku untuk Hosting.',
-                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-sky-400"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>'
+                                'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>'
                             ],
                         ];
                     @endphp
@@ -449,10 +449,10 @@
                     {{-- Tabs Navigation --}}
                     <div class="w-full lg:w-1/3 flex flex-col gap-4">
                         <button @click="activeTab = 1"
-                            :class="activeTab === 1 ? 'bg-sky-400 text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
+                            :class="activeTab === 1 ? 'bg-accent text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
                             class="flex items-center gap-4 p-5 rounded-2xl transition-all duration-300 text-left group">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center transition-colors"
-                                :class="activeTab === 1 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-sky-100'">
+                                :class="activeTab === 1 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-accent/10'">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -465,10 +465,10 @@
                         </button>
 
                         <button @click="activeTab = 2"
-                            :class="activeTab === 2 ? 'bg-sky-400 text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
+                            :class="activeTab === 2 ? 'bg-accent text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
                             class="flex items-center gap-4 p-5 rounded-2xl transition-all duration-300 text-left group">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center transition-colors"
-                                :class="activeTab === 2 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-sky-100'">
+                                :class="activeTab === 2 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-accent/10'">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -481,10 +481,10 @@
                         </button>
 
                         <button @click="activeTab = 3"
-                            :class="activeTab === 3 ? 'bg-sky-400 text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
+                            :class="activeTab === 3 ? 'bg-accent text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
                             class="flex items-center gap-4 p-5 rounded-2xl transition-all duration-300 text-left group">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center transition-colors"
-                                :class="activeTab === 3 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-sky-100'">
+                                :class="activeTab === 3 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-accent/10'">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -496,10 +496,10 @@
                         </button>
 
                         <button @click="activeTab = 4"
-                            :class="activeTab === 4 ? 'bg-sky-400 text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
+                            :class="activeTab === 4 ? 'bg-accent text-white shadow-lg scale-105' : 'bg-white text-slate-600 hover:bg-slate-50 border border-slate-100'"
                             class="flex items-center gap-4 p-5 rounded-2xl transition-all duration-300 text-left group">
                             <div class="w-10 h-10 rounded-xl flex items-center justify-center transition-colors"
-                                :class="activeTab === 4 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-sky-100'">
+                                :class="activeTab === 4 ? 'bg-white/20' : 'bg-slate-100 group-hover:bg-accent/10'">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
@@ -519,7 +519,7 @@
                         <template x-if="activeTab === 1">
                             <div class="animate-fadeIn w-full">
                                 <div class="relative w-full aspect-video mb-12 flex items-center justify-center">
-                                    <div class="absolute inset-0 bg-sky-200/20 blur-3xl rounded-full"></div>
+                                    <div class="absolute inset-0 bg-accent/10 blur-3xl rounded-full"></div>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
                                         class="w-full max-w-md h-auto drop-shadow-2xl">
                                         <rect x="150" y="50" width="500" height="350" rx="20" fill="white"
@@ -529,8 +529,8 @@
                                         <circle cx="200" cy="70" r="5" fill="#f59e0b" />
                                         <circle cx="220" cy="70" r="5" fill="#10b981" />
                                         <rect x="200" y="120" width="400" height="150" rx="10" fill="#f1f5f9" />
-                                        <path d="M400 200 L440 240 L360 240 Z" fill="#38bdf8" />
-                                        <rect x="350" y="270" width="100" height="30" rx="5" fill="#38bdf8" />
+                                        <path d="M400 200 L440 240 L360 240 Z" fill="#ff6b00" />
+                                        <rect x="350" y="270" width="100" height="30" rx="5" fill="#ff6b00" />
                                     </svg>
                                 </div>
                                 <h3 class="font-heading text-3xl font-black text-slate-800 mb-6 text-center">Membuat
@@ -554,13 +554,13 @@
                         <template x-if="activeTab === 2">
                             <div class="animate-fadeIn w-full">
                                 <div class="relative w-full aspect-video mb-12 flex items-center justify-center">
-                                    <div class="absolute inset-0 bg-emerald-200/20 blur-3xl rounded-full"></div>
+                                    <div class="absolute inset-0 bg-accent/10 blur-3xl rounded-full"></div>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
                                         class="w-full max-w-md h-auto drop-shadow-2xl">
                                         <rect x="150" y="50" width="500" height="350" rx="20" fill="white"
                                             stroke="#e2e8f0" stroke-width="2" />
-                                        <circle cx="400" cy="180" r="60" fill="#10b981" opacity="0.2" />
-                                        <path d="M370 180 L430 180 M400 150 L400 210" stroke="#10b981" stroke-width="8"
+                                        <circle cx="400" cy="180" r="60" fill="#ff6b00" opacity="0.2" />
+                                        <path d="M370 180 L430 180 M400 150 L400 210" stroke="#ff6b00" stroke-width="8"
                                             stroke-linecap="round" />
                                         <rect x="250" y="280" width="300" height="20" rx="10" fill="#f1f5f9" />
                                         <rect x="300" y="310" width="200" height="20" rx="10" fill="#f1f5f9" />
@@ -583,12 +583,12 @@
                         <template x-if="activeTab === 3">
                             <div class="animate-fadeIn w-full">
                                 <div class="relative w-full aspect-video mb-12 flex items-center justify-center">
-                                    <div class="absolute inset-0 bg-indigo-200/20 blur-3xl rounded-full"></div>
+                                    <div class="absolute inset-0 bg-accent/10 blur-3xl rounded-full"></div>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
                                         class="w-full max-w-md h-auto drop-shadow-2xl">
                                         <rect x="200" y="80" width="400" height="280" rx="15" fill="white"
                                             stroke="#e2e8f0" stroke-width="2" />
-                                        <path d="M200 120 L400 240 L600 120" fill="none" stroke="#6366f1"
+                                        <path d="M200 120 L400 240 L600 120" fill="none" stroke="#ff6b00"
                                             stroke-width="4" stroke-linejoin="round" />
                                         <rect x="280" y="280" width="240" height="15" rx="7" fill="#f1f5f9" />
                                     </svg>
@@ -598,7 +598,7 @@
                                 <div class="space-y-4 text-slate-600 leading-relaxed text-center max-w-2xl mx-auto">
                                     <p>Tingkatkan kredibilitas bisnis Anda dengan alamat email kustom
                                         (nama@perusahaan.com). Layanan email kami dilengkapi fitur <span
-                                            class="font-bold text-indigo-500">anti-spam tingkat lanjut</span> dan
+                                            class="font-bold text-accent">anti-spam tingkat lanjut</span> dan
                                         enkripsi keamanan data.</p>
                                     <p>Akses email Anda di mana saja, kapan saja, melalui Webmail, Outlook, atau
                                         smartphone dengan dukungan IMAP/POP3 yang stabil.</p>
@@ -610,14 +610,14 @@
                         <template x-if="activeTab === 4">
                             <div class="animate-fadeIn w-full">
                                 <div class="relative w-full aspect-video mb-12 flex items-center justify-center">
-                                    <div class="absolute inset-0 bg-purple-200/20 blur-3xl rounded-full"></div>
+                                    <div class="absolute inset-0 bg-accent/10 blur-3xl rounded-full"></div>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"
                                         class="w-full max-w-md h-auto drop-shadow-2xl">
-                                        <rect x="250" y="100" width="300" height="60" rx="10" fill="#a855f7"
+                                        <rect x="250" y="100" width="300" height="60" rx="10" fill="#ff6b00"
                                             opacity="0.8" />
-                                        <rect x="250" y="180" width="300" height="60" rx="10" fill="#a855f7"
+                                        <rect x="250" y="180" width="300" height="60" rx="10" fill="#ff6b00"
                                             opacity="0.5" />
-                                        <rect x="250" y="260" width="300" height="60" rx="10" fill="#a855f7"
+                                        <rect x="250" y="260" width="300" height="60" rx="10" fill="#ff6b00"
                                             opacity="0.3" />
                                         <circle cx="280" cy="130" r="5" fill="white" />
                                         <circle cx="280" cy="210" r="5" fill="white" />

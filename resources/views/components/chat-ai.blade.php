@@ -33,7 +33,7 @@
 }" class="fixed bottom-6 right-6 z-[9999]" style="font-family: 'Inter', sans-serif;">
     <!-- Chat Button -->
     <button @click="open = !open" 
-        class="bg-blue-600 text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform active:scale-95 group relative z-50">
+        class="bg-accent text-white w-14 h-14 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform active:scale-95 group relative z-50">
         <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>
         </svg>
@@ -57,7 +57,7 @@
         class="absolute bottom-20 right-0 w-[400px] bg-white rounded-xl shadow-2xl overflow-hidden border border-slate-100 flex flex-col max-h-[700px] z-40">
         
         <!-- Header -->
-        <div class="bg-blue-600 p-5 text-white shrink-0">
+        <div class="bg-accent p-5 text-white shrink-0">
             <div class="flex items-center gap-3">
                 <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -68,7 +68,7 @@
                     <h3 class="font-black text-lg tracking-tight leading-tight mb-1">DutaHosting AI</h3>
                     <div class="flex items-center gap-1.5">
                         <span class="w-2.5 h-2.5 bg-[#10b981] rounded-full"></span>
-                        <span class="text-xs text-blue-100 font-medium">Online</span>
+                        <span class="text-xs text-orange-100 font-medium">Online</span>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
         <div x-ref="msgContainer" class="flex-1 overflow-y-auto p-5 bg-[#F9FAFB] space-y-4 min-h-[160px] border-b border-slate-100">
             <template x-for="msg in messages" :key="msg.role + msg.text">
                 <div :class="msg.role === 'bot' ? 'flex justify-start' : 'flex justify-end'">
-                    <div :class="msg.role === 'bot' ? 'bg-white text-slate-700 rounded-3xl shadow-sm border border-slate-100' : 'bg-blue-600 text-white rounded-3xl shadow-sm'"
+                    <div :class="msg.role === 'bot' ? 'bg-white text-slate-700 rounded-3xl shadow-sm border border-slate-100' : 'bg-accent text-white rounded-3xl shadow-sm'"
                         class="max-w-[85%] px-5 py-4 text-[15px] font-medium leading-relaxed">
                         <span x-text="msg.text"></span>
                     </div>
